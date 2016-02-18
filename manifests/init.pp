@@ -1,4 +1,4 @@
-class forumone::behat ($version = '2.5') {
+class web-starter-behat::behat ($version = '2.5') {
 
   include forumone::composer
 
