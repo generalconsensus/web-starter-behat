@@ -47,7 +47,7 @@ class web-starter-behat::behat ($version = '2.5') {
       cwd         => $path,
       path        => ['/usr/bin', '/user/local/bin'],
       creates     => $composer_lock,
-      require     => [Class['forumone::composer']],
+      require => Class['forumone::composer'],
       environment => ["COMPOSER_HOME=${::forumone::composer::home}"],
       user        => $::forumone::composer::user,
     }
