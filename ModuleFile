@@ -1,0 +1,8 @@
+name    'web-starter-behat'
+version '0.0.1'
+source ''
+author 'Daniel McDermott'
+license 'GPL v2'
+summary 'Puppet module to install behat'
+description ''
+project_page ''
