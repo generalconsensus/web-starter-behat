@@ -39,7 +39,7 @@ class forumone::behat ($version = '2.5') {
       owner   => "vagrant",
       group   => "vagrant",
       mode    => "644",
-      content => inline_template(file("/etc/puppet/modules/behat/templates/behat/composer.json.erb"))
+      content => inline_template(file("/etc/puppet/modules/web-starter-behat/templates/behat/composer.json.erb"))
     }
 
     exec { 'forumone::behat::composer':
