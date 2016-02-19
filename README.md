@@ -23,8 +23,3 @@ classes:
   - web-starter-behat::behat
 ```
 
-That should be it. You will be able to run your behat server and run behat tests that require Javascript execution. You will need to run two shell windows, one to run the behat server, which can be started with the command:
-
-```
-DISPLAY=:1 xvfb-run --server-args="-screen 0 1280x1024x8" java -jar /opt/behat-server-standalone-2.45.0.jar &
-```
