@@ -1,4 +1,4 @@
-class web-starter-behat::behat ($version = '2.5') {
+class web-starter-behat ($version = '2.5') {
 
   include forumone::composer
 
@@ -42,7 +42,7 @@ class web-starter-behat::behat ($version = '2.5') {
       content => inline_template(file("/etc/puppet/modules/web-starter-behat/templates/behat/composer.json.erb"))
     }
 
-    exec { 'forumone::behat::composer':
+    exec { 'forumone::composer':
       command     => "composer install",
       cwd         => $path,
       path        => ['/usr/bin', '/user/local/bin'],

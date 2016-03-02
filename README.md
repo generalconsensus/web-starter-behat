@@ -20,6 +20,6 @@ classes:
   - forumone::nodejs
   - forumone::ruby
   - memcached
-  - web-starter-behat::behat
+  - web-starter-behat
 ```
 
